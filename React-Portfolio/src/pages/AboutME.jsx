@@ -1,4 +1,5 @@
 export default function AboutMe() {
+    return (
     <div>
         <h1>About me</h1>
         <p>
@@ -24,4 +25,5 @@ export default function AboutMe() {
             -Social: As a trainer for W.L Gore it has given me the opportunity to develop my social skill in a Professional setting.
         </p>
     </div>
+    )
 }

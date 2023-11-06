@@ -13,6 +13,23 @@ function NavTabs() {
                   About me
                 </Link>
             </li>
+            <li>
+                <Link
+                to="/Portfolio"
+                className={currentPage === '/Porfolio' ? 'nav-link active' : 'nav-link'}
+                >
+                  Portfolio  
+                </Link>
+            </li>
+            <li>
+                <Link
+                to="/Contact"
+                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                >
+                </Link>
+            </li>
         </ul>
     );
 }
+
+export default NavTabs;

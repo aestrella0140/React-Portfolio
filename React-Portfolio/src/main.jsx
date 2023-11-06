@@ -3,13 +3,20 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+
+import Portfolio from './pages/Portfolio.jsx';
+import AboutMe from './pages/AboutME.jsx';
+
+
+
 // accessible routes,
 
-const router = createRouter([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <Error />,
     children: [
       {
         index: true,
@@ -18,13 +25,11 @@ const router = createRouter([
       {
         path: '/Portfolio',
         element: <Portfolio />,
-      }
-    ]
-  }
-])
+      },
+    ],
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <RouterProvider router={router} />
 )
