@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Portfolio from './pages/Portfolio.jsx';
 import AboutMe from './pages/AboutME.jsx';
-
+import Contact from './pages/Contact.jsx';
 
 
 // accessible routes,
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/Portfolio',
         element: <Portfolio />,
+      },
+      {
+        path: '/Contact',
+        element: <Contact />
       },
     ],
   },
