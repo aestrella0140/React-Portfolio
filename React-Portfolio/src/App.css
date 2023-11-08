@@ -1,42 +1,43 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.name {
+    color: white;
+    border-style: hidden;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+    background-color: #F1EFC8;
+}
+.profile {
+    padding: 100px;
+    width: 150px;
+    border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav {
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-top: 5px;
+    background-color: #0F4415;
 }
 
-.card {
-  padding: 2em;
+.nav-item {
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 300px;
+    color: #0F4415;
 }
 
-.read-the-docs {
-  color: #888;
+a {
+    color: white;
+    font-size: 25px;
 }
+
+
+
+

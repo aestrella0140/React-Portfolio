@@ -16,11 +16,19 @@ export default function Contact() {
                 </p>
             </div>
             <div>
-                <h2>Email</h2>
-                <a href="mailto: astarfirstborn@hotmail.com">astarfirstborn@hotmail.com</a>
-                <p>
-                    You can email me at any time at the email above.
-                </p>
+                <div className="form-card">
+                    <h2>name</h2>
+                    <label className="label"><h6 className="name">name</h6></label>
+                    <input type="text" name="name" placeholder="Enter name here"></input>
+                </div>
+                <div className="form-card">
+                    <h2>Email</h2>
+                    <label className="label"><h6 className="email-title">Email Address</h6></label>
+                    <input type="text" name="email" pattern="Enter valid Email"></input>
+                </div>
+                <div className="form-card">
+
+                </div>
             </div>
         </div>
     )
