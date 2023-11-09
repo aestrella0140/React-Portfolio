@@ -1,7 +1,6 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-
 }
 
 .name {
@@ -38,6 +37,46 @@ a {
     font-size: 25px;
 }
 
+.github {
+    padding: 75px;
+    margin-left: 750px;
+    width: 50px;
+}
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.project {
+    padding: 20px;
+    width: 500px;
+}
 
+h1 {
+    color: #0F4415;
+}
+
+.card {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    width: 450px;
+    
+}
+
+.form-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.label {
+    width: 20px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+}
