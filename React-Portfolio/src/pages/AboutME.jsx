@@ -13,7 +13,7 @@ export default function AboutMe() {
                 My name is Adrian Estrella. I love playing video games, working out, and spending time with my family.
                 Im a big into fantasy adventure book series like the Wheel of time or King Killer Chronicales. I've lived in Surprise Arizona for around nine years.
                 I Play games on PC and love to costomize my hardware for my rig. Wrestling is also apart of my life, Ive been wrestling Folk Style and Greco Roman sense I was around eight.
-                I was apart of a junior Olympic Wrestling team in 2018 for the Young Lions Wreslting team training in Europe.
+                I was apart of a junior Olympic Wrestling team in 2018 for the Young Lions Wreslting training in Europe.
 
                 <h3>Developer</h3>
                 Ive been attending ASU's FullStack Flex bootcamp to be a certified FullStack Developer. So far I love developing both front-end and back-end work as a fullStack Developer.
